@@ -69,11 +69,13 @@ a:hover{
 .list-inline li i{
   font-size: 25px;
 }
+
 .btn-red{
   border: none;
+  background-color: #C61414;
   color: #FFFFFF;
   text-align: center;
-  font-size: 18px;
+  font-size: 10px;
   padding: 15px;
   width: 100px;
   transition: all 0.5s;
