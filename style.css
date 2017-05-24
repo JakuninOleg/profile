@@ -130,6 +130,15 @@ td img {
   font-size: 15px;
   line-height: 1.6em;
 }
+
+#wrapper{
+  padding: 20px;
+  width: 1000px;
+  margin: 20px auto;
+  border-radius: 2px;
+  background: rgba(175, 175, 175, 0.1);
+}
+
 #left-container{
   width: 35%;
   float: left;
@@ -156,43 +165,8 @@ td img {
   margin-left: 120px;
 }
 
-#sidebar {
-  background-color: #384047;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: 120px;
-  text-align: center;
-}
-
-#sidebar ul {
-  list-style: none;
-  padding-left: 0px;
-}
-
-#sidebar li {
-  margin-top:50px;
-  margin-bottom: 50px;
-}
-
-#sidebar a {
-  text-decoration: none;
-  font-size: 25px;
-  color:#788188;
-}
-
-#sidebar a:hover {
-  color: white;
-}
-
-
-@media (max-width: 768px) {
-  #content{
-    margin-left: 0px;
-  }
-  #sidebar {
-    display: none;
-  }
+#footer{
+  position: relative;
+  padding: 10px 400px 60px 20px;
 }
 
