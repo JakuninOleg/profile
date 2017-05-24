@@ -70,42 +70,45 @@ a:hover{
   font-size: 25px;
 }
 
-.btn-red{
+#btn-red {
+  border-radius: 4px;
+  background-color: #DD5555;
   border: none;
-  background-color: #C61414;
   color: #FFFFFF;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
   padding: 15px;
   width: 100px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
   display: inline-block;
-  border-radius: 4px;
 }
 
+#btn-red span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
- .btn-red span {
-   cursor: pointer;
-   display: inline-block;
-   position: relative;
-   transition: 0.5s;
- }
+#btn-red span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
- .btn-red span:after {
-   content: '\00bb';
-   position: absolute;
-   opacity: 0;
-   top: 0;
-   right: 20px;
-   transition: 0.5s;
-  }
+#btn-red:hover span {
+  padding-right: 25px;
+}
 
- .btn-red:hover span:after {
-   opacity: 1;
-   right: 0;
- }
+#btn-red:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
 /* Specific CSS rules */
 
@@ -114,14 +117,17 @@ a:hover{
   height: 100px;
   border: 3px solid #cccccc;
 }
+
 #movies{
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6em;
 }
+
 #movies img{
-  width: 80px;
+  width: 100px;
 }
+
 #movies td{
   padding: 10px;
 }
