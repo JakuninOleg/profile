@@ -130,6 +130,27 @@ td img {
   font-size: 15px;
   line-height: 1.6em;
 }
+#left-container{
+  width: 35%;
+  float: left;
+  min-height: 600px;
+}
+
+#left-container .card:first-child {
+  min-height: 350px;
+}
+#left-container .card:last-child {
+  min-height: 120px;
+}
+
+#right-container{
+  width: 60%;
+  float: right;
+  min-height: 600px;
+}
+#right-container .card {
+  min-height: 530px;
+}
 
 #content{
   margin-left: 120px;
